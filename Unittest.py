@@ -7,7 +7,7 @@ def unit_test():
     vec2a = Vector2([1, 1])
     vec2b = Vector2([2, 2])
 
-    print "Addition"
+    print "\nAddition"
     add = vec2a.add(vec2b)
     add.print_info()
 
