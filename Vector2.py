@@ -26,11 +26,11 @@ class Vector2(object):
         return Vector2([tmp0, tmp1])
 
     def magnitude(self):
-        '''magnitude of a vector'''
+        '''magnitude of this vector'''
         return math.sqrt((self.value[0] * self.value[0]) + (self.value[1] * self.value[1]))
 
     def normalize(self):
-        '''normalize a vector2'''
+        '''normalize this vector2'''
         mag = self.magnitude()
         return Vector2([(self.value[0] / mag), (self.value[1] / mag)])
 
@@ -41,5 +41,5 @@ class Vector2(object):
         return (tmpvec0.value[0] * tmpvec1.value[0]) + (tmpvec0.value[1] * tmpvec1.value[1])
 
     def print_info(self):
-        '''prints vecotr 2 info'''
+        '''prints vector 2 info'''
         print str(self.value[0]) + ', ' + str(self.value[1])
