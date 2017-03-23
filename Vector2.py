@@ -5,7 +5,6 @@ class Vector2(object):
     '''Vector 2 object'''
     def __init__(self, val):
         '''constructor'''
-        self.value = []
         self.value = val
 
     def add(self, vec2):
