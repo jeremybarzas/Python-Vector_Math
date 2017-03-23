@@ -38,8 +38,7 @@ class Vector2(object):
         '''dot product of two vector2s'''
         tmpvec0 = self.normalize()
         tmpvec1 = vec2.normalize()
-        dotp = (tmpvec0.value[0] * tmpvec1.value[0]) + (tmpvec0.value[1] * tmpvec1.value[1])
-        return dotp
+        return (tmpvec0.value[0] * tmpvec1.value[0]) + (tmpvec0.value[1] * tmpvec1.value[1])
 
     def print_info(self):
         '''prints vecotr 2 info'''
