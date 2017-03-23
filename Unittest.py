@@ -4,8 +4,8 @@ from Vector2 import Vector2
 
 def unit_test():
     '''unit test'''
-    vec2a = Vector2([1, 1])
-    vec2b = Vector2([2, 2])
+    vec2a = Vector2([1, 2])
+    vec2b = Vector2([3, 4])
 
     print "\nAddition"
     add = vec2a.add(vec2b)
